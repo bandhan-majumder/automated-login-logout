@@ -1,4 +1,4 @@
-# This is an automation project of logging in and logging out of a website automatically. 
+# Automation project : Log in and log out of a website automatically using selenium module in python. 
 
 Here we have taken the example of website -> https://www.orangehrm.com/
 
