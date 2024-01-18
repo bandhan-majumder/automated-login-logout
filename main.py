@@ -15,13 +15,13 @@ try:
  # logging in process:-
 
   # step 1: sign-in bar -> username
- sign_in_username=driver.find_element(By.NAME, "username")
- sign_in_username.send_keys("Admin") # username : Admin
+ log_in_username=driver.find_element(By.NAME, "username")
+ log_in_username.send_keys("Admin") # username : Admin
   # sign - in bar -> password
- sign_in_password=driver.find_element(By.NAME,"password")
- sign_in_password.send_keys("admin123") # password : admin123
+ log_in_password=driver.find_element(By.NAME,"password")
+ log_in_password.send_keys("admin123") # password : admin123
 
- sign_in_username.send_keys(Keys.ENTER)  # clicking enter to log in
+ log_in_username.send_keys(Keys.ENTER)  # clicking enter to log in
  print("Logged in successfully!")
 
  time.sleep(3)
@@ -31,11 +31,11 @@ try:
   # step 1. click the profile option and click ..
  profile = driver.find_element(By.CLASS_NAME, 'oxd-userdropdown-tab') # choosing the profile option
  profile.click() # clicking on the top-down button to get the logout option
- time.sleep(3)
+ time.sleep(2)
   # step 2. click the logout option and sign out ..
- sign_out=driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]/a') # choosing the logout option
- sign_out.send_keys(Keys.ENTER) # clicking and signing out ......
- time.sleep(4)
+ log_out=driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]/a') # choosing the logout option
+ log_out.send_keys(Keys.ENTER) # clicking and signing out ......
+ time.sleep(2)
 
  driver.quit()
  print("Logged out successfully!")
