@@ -1,6 +1,9 @@
-# This is an automation project of logging in and logging out of a website automatically. \n
-Here we have taken the example of website -> **https://www.orangehrm.com/** 
+# This is an automation project of logging in and logging out of a website automatically. 
+
+Here we have taken the example of website -> https://www.orangehrm.com/
+
 Website's log in page -> https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
 Username : Admin
 Password : admin123
 
