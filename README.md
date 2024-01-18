@@ -4,7 +4,7 @@ Here we have taken the example of website -> https://www.orangehrm.com/
 
 Website's log in page -> https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
-**Credentials**
+**Credentials :-**
 
 Username : Admin
 
